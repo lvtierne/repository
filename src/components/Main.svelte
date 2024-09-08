@@ -119,35 +119,50 @@
             <i class="fa-regular fa-circle-play" />
             <p>What is AWS?</p>
         </a>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <!-- Binary Search Tree Optimization Project -->
+        <a
+            href="https://github.com/lvtierne/mainprojects/blob/main/Enhanced%20Projects/BTS%20(Enhanced).zip"
+            target="_blank"
+            class="block"
+        >
             <Step step={steps[0]}>
                 <p>
-                    Developed and optimized a Binary Search Tree (BST) <strong
-                        class="text-violet-400"
-                        >for efficient data retrieval, search, and storage operations.</strong
-                    > The project involved implementing complex algorithms to ensure optimal time complexity and data structure integrity.
+                    Developed and optimized a Binary Search Tree (BST) <strong class="text-violet-400">
+                    for efficient data retrieval, search, and storage operations.</strong> The project involved implementing complex algorithms to ensure optimal time complexity and data structure integrity.
                 </p>
             </Step>
+        </a>
+
+        <!-- SQLite Database Management Project -->
+        <a
+            href="https://github.com/lvtierne/mainprojects/blob/main/Enhanced%20Projects/SQLite%20Database%20Management%20Project.zip"
+            target="_blank"
+            class="block"
+        >
             <Step step={steps[1]}>
                 <p>
-                    Built a lightweight database management interface using <strong
-                        class="text-violet-400">SQLite</strong
-                    >, facilitating
-                    <strong class="text-violet-400">easy data storage and retrieval for small to mid-sized web applications.</strong
-                    >
+                    Built a lightweight database management interface using <strong class="text-violet-400">SQLite</strong>, facilitating
+                    <strong class="text-violet-400">easy data storage and retrieval for small to mid-sized web applications.</strong>
                     The project involved efficient querying and backend optimization for seamless operations.
                 </p>
             </Step>
+        </a>
+
+        <!-- Minimalistic GPT-3.5 Chatbot Web Interface Project -->
+        <a
+            href="https://github.com/lvtierne/Minimalistic-GPT-3.5-Chatbot-Web-Interface"
+            target="_blank"
+            class="block"
+        >
             <Step step={steps[2]}>
                 <p>
-                    Designed and implemented a <strong class="text-violet-400">
-                    simple, clean web interface for a GPT-3.5 chatbot</strong>
-                    , allowing users to interact with the AI model through an intuitive interface.
-                    <strong class="text-violet-400">Leveraged the OpenAI API </strong>, that
-                    for processing requests and delivering real-time responses.
+                    Designed and implemented a <strong class="text-violet-400">simple, clean web interface for a GPT-3.5 chatbot</strong>, allowing users to interact with the AI model through an intuitive interface.
+                    <strong class="text-violet-400">Leveraged the OpenAI API</strong> for processing requests and delivering real-time responses.
                 </p>
             </Step>
-        </div>
+        </a>
+    </div>
     </section>
     <section
         id="about"
